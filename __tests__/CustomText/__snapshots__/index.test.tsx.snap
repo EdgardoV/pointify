@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomText renders correctly with props 1`] = `
+<Text
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={1}
+  style={
+    [
+      [
+        {
+          "color": "#020202",
+          "fontFamily": "Avenir",
+          "fontSize": 12,
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#000000",
+        },
+        {
+          "fontFamily": "Avenir",
+        },
+      ],
+      {
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "textAlign": "left",
+        "textDecorationLine": "none",
+        "textTransform": "none",
+      },
+    ]
+  }
+>
+  Test CustomText
+</Text>
+`;
+
+exports[`CustomText renders correctly without props 1`] = `
+<Text
+  ellipsizeMode="tail"
+  style={
+    [
+      [
+        {
+          "color": "#020202",
+          "fontFamily": "Avenir",
+          "fontSize": 12,
+        },
+      ],
+      {
+        "letterSpacing": undefined,
+        "lineHeight": undefined,
+        "textAlign": undefined,
+        "textDecorationLine": "none",
+        "textTransform": undefined,
+      },
+    ]
+  }
+>
+  Test CustomText
+</Text>
+`;

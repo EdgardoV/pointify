@@ -1,0 +1,22 @@
+{
+  "language": {
+    "tag": "es"
+  },
+  "home": {
+    "welcome": "Bienvenido de vuelta!",
+    "yourPoints": "Tus puntos",
+    "yourMoves": "Tus movimientos"
+  },
+  "detail": {
+    "productDetails": "Detalles del producto",
+    "purchaseAt": "Comprado el {{date}}",
+    "withThisPurchase": "Con esta compra acumulaste",
+    "points": "{{points}} puntos"
+  },
+  "global": {
+    "all": "Todos",
+    "earned": "Ganados",
+    "redeemed": "Canjeados",
+    "accept": "Aceptar"
+  }
+}
