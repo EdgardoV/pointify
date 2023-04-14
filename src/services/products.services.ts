@@ -2,10 +2,8 @@ import {products} from 'Api';
 import {ProductType, ProductsInterface} from 'reactRedux/types/products.types';
 
 async function get(): Promise<ProductsInterface> {
-  const r = await products();
-  const {data, status, statusText, request} = r;
-
-  console.log('products.services.ts', request);
+  const request = await products();
+  const {data, status, statusText} = request;
 
   if (status === 200) {
     const response = data
